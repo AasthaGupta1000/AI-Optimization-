@@ -16,6 +16,8 @@ Your job is to return two separate pieces of Markdown text in **JSON** format:
 2) "llms_full_txt": A more comprehensive version (llms-full.txt) that provides 
    detailed information, including extended documentation, code snippets, etc.
 
+The files should have url links to the key pages mentioned
+
 Return them as a valid JSON object with exactly two keys: {{ "llms_txt" }} and {{ "llms_full_txt" }}.
 
 Example JSON output:

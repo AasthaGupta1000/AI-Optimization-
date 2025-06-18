@@ -61,7 +61,7 @@ def main():
     overview = st.text_area("Overview", "This website delivers timely and reliable news updates.")
     key_pages = st.text_area(
         "Key Topics/Pages (use line breaks or bullet points)",
-        "- Sports\n- Politics\n- Entertainment\n- Business\n- Lifestyle\n- Technology\n- Astrology\n- Viral"
+        "- category\Sports\n- category\Politics\n- category\Entertainment\n- category\Business\n- category\Lifestyle\n- category\Technology\n- category\Astrology\n- category\Viral"
     )
     notes = st.text_area("Additional Notes", "We provide daily news digests, expert analysis, and real-time updates")
     
